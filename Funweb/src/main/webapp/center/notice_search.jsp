@@ -162,9 +162,3 @@ ArrayList<BoardBean> boardList = boardDAO.selectSearchBoardList(pageNum, listLim
 	</div>
 </body>
 </html>
-
-
-
-
-
-

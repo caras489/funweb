@@ -22,7 +22,6 @@ MemberBean member = memberDAO.selectMemberInfo(id);
 		<!-- 헤더 들어가는곳 -->
 		<jsp:include page="../inc/top.jsp"></jsp:include>
 		<!-- 헤더 들어가는곳 -->
-		  
 		<!-- 본문들어가는 곳 -->
 		  <!-- 본문 메인 이미지 -->
 		  <div id="sub_img_member"></div>
@@ -55,7 +54,6 @@ MemberBean member = memberDAO.selectMemberInfo(id);
 		  			<label>E-Mail</label>
 		  			<input type="email" name="email" id="email" value="<%=member.getEmail() %>" required="required"><br>
 		  		</fieldset>
-		  		
 		  		<fieldset>
 		  			<legend>Optional</legend>
 		  			<label>Address</label>
@@ -72,8 +70,6 @@ MemberBean member = memberDAO.selectMemberInfo(id);
 		  		</div>
 		  	</form>
 		  </article>
-		  
-		  
 		<div class="clear"></div>  
 		<!-- 푸터 들어가는곳 -->
 		<jsp:include page="../inc/bottom.jsp"></jsp:include>
@@ -81,5 +77,3 @@ MemberBean member = memberDAO.selectMemberInfo(id);
 	</div>
 </body>
 </html>
-
-

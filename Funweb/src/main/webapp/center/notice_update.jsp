@@ -25,7 +25,6 @@ BoardBean board = boardDAO.selectBoard(num);
 		<!-- 헤더 들어가는곳 -->
 		<jsp:include page="../inc/top.jsp" />
 		<!-- 헤더 들어가는곳 -->
-
 		<!-- 본문들어가는 곳 -->
 		<!-- 본문 메인 이미지 -->
 		<div id="sub_img_center"></div>
@@ -63,15 +62,12 @@ BoardBean board = boardDAO.selectBoard(num);
 						<td><textarea rows="10" cols="20" name="content" required="required"><%=board.getContent() %></textarea></td>
 					</tr>
 				</table>
-
 				<div id="table_search">
 					<input type="submit" value="글수정" class="btn">
 				</div>
 			</form>
 			<div class="clear"></div>
 		</article>
-
-
 		<div class="clear"></div>
 		<!-- 푸터 들어가는곳 -->
 		<jsp:include page="../inc/bottom.jsp" />
@@ -79,5 +75,3 @@ BoardBean board = boardDAO.selectBoard(num);
 	</div>
 </body>
 </html>
-
-

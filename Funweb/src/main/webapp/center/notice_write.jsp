@@ -13,7 +13,6 @@
 		<!-- 헤더 들어가는곳 -->
 		<jsp:include page="../inc/top.jsp" />
 		<!-- 헤더 들어가는곳 -->
-
 		<!-- 본문들어가는 곳 -->
 		<!-- 본문 메인 이미지 -->
 		<div id="sub_img_center"></div>
@@ -31,7 +30,6 @@
 			<h1>Notice Write</h1>
 			<form action="notice_writePro.jsp" method="post">
 				<table id="notice">
-
 					<tr>
 						<td>글쓴이</td>
 						<td><input type="text" name="name" required="required"></td>
@@ -48,17 +46,13 @@
 						<td>내용</td>
 						<td><textarea rows="10" cols="20" name="content" required="required"></textarea></td>
 					</tr>
-
 				</table>
-
 				<div id="table_search">
 					<input type="submit" value="글쓰기" class="btn">
 				</div>
 			</form>
 			<div class="clear"></div>
 		</article>
-
-
 		<div class="clear"></div>
 		<!-- 푸터 들어가는곳 -->
 		<jsp:include page="../inc/bottom.jsp" />
@@ -66,5 +60,3 @@
 	</div>
 </body>
 </html>
-
-

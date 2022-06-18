@@ -92,9 +92,3 @@ PublicBoardBean pbb = pbd.selectBoard(num);
 	</div>
 </body>
 </html>
-
-
-
-
-
-

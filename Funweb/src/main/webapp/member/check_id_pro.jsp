@@ -21,18 +21,3 @@ boolean isDuplicate = memberDAO.checkId(id);
 //    또한, 입력한 아이디를 활용하기 위해 id 값도 파라미터로 전달
 response.sendRedirect("check_id.jsp?id=" + id + "&duplicate=" + isDuplicate);
 %>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

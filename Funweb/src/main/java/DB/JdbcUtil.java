@@ -88,18 +88,3 @@ public class JdbcUtil {
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

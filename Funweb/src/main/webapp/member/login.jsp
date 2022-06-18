@@ -44,8 +44,6 @@
 		  		</div>
 		  	</form>
 		  </article>
-		  
-		  
 		<div class="clear"></div>  
 		<!-- 푸터 들어가는곳 -->
 		<jsp:include page="../inc/bottom.jsp"></jsp:include>
@@ -53,5 +51,3 @@
 	</div>
 </body>
 </html>
-
-

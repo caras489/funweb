@@ -45,7 +45,6 @@ BoardBean board = boardDAO.selectBoard(num);
 			</ul>
 		</nav>
 		<!-- 본문 내용 -->
-
 		<article>
 			<h1>Notice Content</h1>
 			<table id="notice">
@@ -70,7 +69,6 @@ BoardBean board = boardDAO.selectBoard(num);
 					<td colspan="3"><%=board.getContent() %></td>
 				</tr>
 			</table>
-
 			<div id="table_search">
 				<!-- 글 수정 클릭 시 notice_update.jsp 페이지로 이동(글번호, 페이지번호 전달) -->
 				<input type="button" value="글수정" class="btn" 
@@ -82,10 +80,8 @@ BoardBean board = boardDAO.selectBoard(num);
 				<input type="button" value="글목록" class="btn" 
 						onclick="location.href='notice.jsp?page=<%=pageNum%>'">
 			</div>
-
 			<div class="clear"></div>
 		</article>
-
 		<div class="clear"></div>
 		<!-- 푸터 들어가는곳 -->
 		<jsp:include page="../inc/bottom.jsp" />
@@ -93,9 +89,3 @@ BoardBean board = boardDAO.selectBoard(num);
 	</div>
 </body>
 </html>
-
-
-
-
-
-

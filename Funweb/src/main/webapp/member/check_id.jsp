@@ -77,15 +77,3 @@ String isDuplicate = request.getParameter("duplicate");
 	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
